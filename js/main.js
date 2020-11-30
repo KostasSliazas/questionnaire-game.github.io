@@ -51,7 +51,7 @@
   {
     id: 5,
     que: 'Which country flag is it?',
-    yes: 2,
+    yes: 0,
     ch1: 'Lithuania',
     ch2: 'Estonia',
     ch3: 'Latvia',
