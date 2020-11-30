@@ -7,7 +7,7 @@ class Database
     private $host = 'localhost';
     private $db_name = 'kquestions';  //duomenu baze
     private $username = 'root';
-    private $password = 'Kremas7+';
+    private $password = '';
     public $conn;
 
     // get the database connection
