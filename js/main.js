@@ -47,6 +47,16 @@
     ch2: 'Cakes',
     ch3: 'Pizza',
     ch4: 'Jazz'
+  },
+  {
+    id: 5,
+    que: 'Which country flag is it?',
+    yes: 2,
+    ch1: 'Lithuania',
+    ch2: 'Estonia',
+    ch3: 'Latvia',
+    ch4: 'Polska',
+    img: '19.jpg'
   }
   ]
   w.fetch(URL).then((response) => response.json())
