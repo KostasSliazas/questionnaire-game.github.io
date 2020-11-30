@@ -56,7 +56,7 @@
     ch2: 'Estonia',
     ch3: 'Latvia',
     ch4: 'Polska',
-    img: '19.jpg'
+    img: 'img/19.jpg'
   }
   ]
   w.fetch(URL).then((response) => response.json())
