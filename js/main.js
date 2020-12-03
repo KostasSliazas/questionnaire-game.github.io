@@ -196,8 +196,8 @@
   }
 
   function loopElems (elem) {
-    clearTimeout(tim)
     if (!elem.target.classList.contains('tips')) return
+    clearTimeout(tim)
     sele.call(elem.target)
     const getAllansw = [...document.getElementsByClassName('tips')]
     getAllansw.forEach(element => {
@@ -218,7 +218,7 @@
     } else {
       nno.call(getQuestio)
       nno.bind(elems)
-      w.navigator.vibrate(300)
+      w.navigator.vibrate(30)
     }
     nextQuest()
   }
